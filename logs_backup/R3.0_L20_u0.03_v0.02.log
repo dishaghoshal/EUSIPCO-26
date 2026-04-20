@@ -1,0 +1,749 @@
+================================================================================
+GENERATING SIMULATION DATA FOR 20 SCENARIOS
+================================================================================
+
+SCENARIO_1 Scenario:
+  Obstacle coverage: 17.5%
+  Number of time steps: 1000
+
+SCENARIO_2 Scenario:
+  Obstacle coverage: 17.4%
+  Number of time steps: 1000
+
+SCENARIO_3 Scenario:
+  Obstacle coverage: 13.3%
+  Number of time steps: 1000
+
+SCENARIO_4 Scenario:
+  Obstacle coverage: 16.5%
+  Number of time steps: 1000
+
+SCENARIO_5 Scenario:
+  Obstacle coverage: 14.5%
+  Number of time steps: 1000
+
+SCENARIO_6 Scenario:
+  Obstacle coverage: 11.5%
+  Number of time steps: 1000
+
+SCENARIO_7 Scenario:
+  Obstacle coverage: 14.8%
+  Number of time steps: 1000
+
+SCENARIO_8 Scenario:
+  Obstacle coverage: 9.9%
+  Number of time steps: 1000
+
+SCENARIO_9 Scenario:
+  Obstacle coverage: 11.9%
+  Number of time steps: 1000
+
+SCENARIO_10 Scenario:
+  Obstacle coverage: 15.3%
+  Number of time steps: 1000
+
+SCENARIO_11 Scenario:
+  Obstacle coverage: 14.7%
+  Number of time steps: 1000
+
+SCENARIO_12 Scenario:
+  Obstacle coverage: 13.3%
+  Number of time steps: 1000
+
+SCENARIO_13 Scenario:
+  Obstacle coverage: 16.3%
+  Number of time steps: 1000
+
+SCENARIO_14 Scenario:
+  Obstacle coverage: 16.6%
+  Number of time steps: 1000
+
+SCENARIO_15 Scenario:
+  Obstacle coverage: 15.9%
+  Number of time steps: 1000
+
+SCENARIO_16 Scenario:
+  Obstacle coverage: 17.7%
+  Number of time steps: 1000
+
+SCENARIO_17 Scenario:
+  Obstacle coverage: 18.3%
+  Number of time steps: 1000
+
+SCENARIO_18 Scenario:
+  Obstacle coverage: 21.1%
+  Number of time steps: 1000
+
+SCENARIO_19 Scenario:
+  Obstacle coverage: 21.5%
+  Number of time steps: 1000
+
+SCENARIO_20 Scenario:
+  Obstacle coverage: 12.2%
+  Number of time steps: 1000
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_1.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_2.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_3.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_4.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_5.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_6.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_7.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_8.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_9.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_10.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_11.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_12.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_13.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_14.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_15.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_16.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_17.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_18.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_19.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/SCENARIO_20.png
+
+================================================================================
+Using SCENARIO_1 for filter setup (all scenarios run in main loop)
+================================================================================
+
+Number of time steps: 1000
+State dimensions: (1000, 5)
+Measurement dimensions: (1000, 2)
+KDE ceiling: 63 samples
+KDE floor: 112 samples
+Helper classes defined
+Group [1] EKF created for drone states (Rao-Blackwellized)
+
+================================================================================
+TESTING SCENARIO: SCENARIO_1
+================================================================================
+  SCENARIO_1/F2/Likelihood-Based: Overall RMSE = 0.0742 m
+  SCENARIO_1/F2/Free Energy (Aggressive): Overall RMSE = 0.0741 m
+  SCENARIO_1/F3/Likelihood-Based: Overall RMSE = 0.0760 m
+  SCENARIO_1/F3/Free Energy (Aggressive): Overall RMSE = 0.0730 m
+  SCENARIO_1/F4/Likelihood-Based: Overall RMSE = 0.0793 m
+  SCENARIO_1/F4/Free Energy (Aggressive): Overall RMSE = 0.0741 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_2
+================================================================================
+  SCENARIO_2/F2/Likelihood-Based: Overall RMSE = 0.1190 m
+  SCENARIO_2/F2/Free Energy (Aggressive): Overall RMSE = 0.1157 m
+  SCENARIO_2/F3/Likelihood-Based: Overall RMSE = 0.1177 m
+  SCENARIO_2/F3/Free Energy (Aggressive): Overall RMSE = 0.1163 m
+  SCENARIO_2/F4/Likelihood-Based: Overall RMSE = 0.1208 m
+  SCENARIO_2/F4/Free Energy (Aggressive): Overall RMSE = 0.1155 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_3
+================================================================================
+  SCENARIO_3/F2/Likelihood-Based: Overall RMSE = 0.0833 m
+  SCENARIO_3/F2/Free Energy (Aggressive): Overall RMSE = 0.0793 m
+  SCENARIO_3/F3/Likelihood-Based: Overall RMSE = 0.0836 m
+  SCENARIO_3/F3/Free Energy (Aggressive): Overall RMSE = 0.0826 m
+  SCENARIO_3/F4/Likelihood-Based: Overall RMSE = 0.0878 m
+  SCENARIO_3/F4/Free Energy (Aggressive): Overall RMSE = 0.0787 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_4
+================================================================================
+  SCENARIO_4/F2/Likelihood-Based: Overall RMSE = 0.0139 m
+  SCENARIO_4/F2/Free Energy (Aggressive): Overall RMSE = 0.0143 m
+  SCENARIO_4/F3/Likelihood-Based: Overall RMSE = 0.0145 m
+  SCENARIO_4/F3/Free Energy (Aggressive): Overall RMSE = 0.0146 m
+  SCENARIO_4/F4/Likelihood-Based: Overall RMSE = 0.0252 m
+  SCENARIO_4/F4/Free Energy (Aggressive): Overall RMSE = 0.0148 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_5
+================================================================================
+  SCENARIO_5/F2/Likelihood-Based: Overall RMSE = 0.1684 m
+  SCENARIO_5/F2/Free Energy (Aggressive): Overall RMSE = 0.1653 m
+  SCENARIO_5/F3/Likelihood-Based: Overall RMSE = 0.1684 m
+  SCENARIO_5/F3/Free Energy (Aggressive): Overall RMSE = 0.1676 m
+  SCENARIO_5/F4/Likelihood-Based: Overall RMSE = 0.1662 m
+  SCENARIO_5/F4/Free Energy (Aggressive): Overall RMSE = 0.1681 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_6
+================================================================================
+  SCENARIO_6/F2/Likelihood-Based: Overall RMSE = 0.0424 m
+  SCENARIO_6/F2/Free Energy (Aggressive): Overall RMSE = 0.0377 m
+  SCENARIO_6/F3/Likelihood-Based: Overall RMSE = 0.0442 m
+  SCENARIO_6/F3/Free Energy (Aggressive): Overall RMSE = 0.0363 m
+  SCENARIO_6/F4/Likelihood-Based: Overall RMSE = 0.0340 m
+  SCENARIO_6/F4/Free Energy (Aggressive): Overall RMSE = 0.0355 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_7
+================================================================================
+  SCENARIO_7/F2/Likelihood-Based: Overall RMSE = 0.0375 m
+  SCENARIO_7/F2/Free Energy (Aggressive): Overall RMSE = 0.0370 m
+  SCENARIO_7/F3/Likelihood-Based: Overall RMSE = 0.0435 m
+  SCENARIO_7/F3/Free Energy (Aggressive): Overall RMSE = 0.0352 m
+  SCENARIO_7/F4/Likelihood-Based: Overall RMSE = 0.0421 m
+  SCENARIO_7/F4/Free Energy (Aggressive): Overall RMSE = 0.0333 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_8
+================================================================================
+  SCENARIO_8/F2/Likelihood-Based: Overall RMSE = 0.1207 m
+  SCENARIO_8/F2/Free Energy (Aggressive): Overall RMSE = 0.1142 m
+  SCENARIO_8/F3/Likelihood-Based: Overall RMSE = 0.1197 m
+  SCENARIO_8/F3/Free Energy (Aggressive): Overall RMSE = 0.1170 m
+  SCENARIO_8/F4/Likelihood-Based: Overall RMSE = 0.1163 m
+  SCENARIO_8/F4/Free Energy (Aggressive): Overall RMSE = 0.1160 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_9
+================================================================================
+  SCENARIO_9/F2/Likelihood-Based: Overall RMSE = 0.0513 m
+  SCENARIO_9/F2/Free Energy (Aggressive): Overall RMSE = 0.0454 m
+  SCENARIO_9/F3/Likelihood-Based: Overall RMSE = 0.0495 m
+  SCENARIO_9/F3/Free Energy (Aggressive): Overall RMSE = 0.0466 m
+  SCENARIO_9/F4/Likelihood-Based: Overall RMSE = 0.0408 m
+  SCENARIO_9/F4/Free Energy (Aggressive): Overall RMSE = 0.0470 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_10
+================================================================================
+  SCENARIO_10/F2/Likelihood-Based: Overall RMSE = 0.0910 m
+  SCENARIO_10/F2/Free Energy (Aggressive): Overall RMSE = 0.0881 m
+  SCENARIO_10/F3/Likelihood-Based: Overall RMSE = 0.0899 m
+  SCENARIO_10/F3/Free Energy (Aggressive): Overall RMSE = 0.0873 m
+  SCENARIO_10/F4/Likelihood-Based: Overall RMSE = 0.0851 m
+  SCENARIO_10/F4/Free Energy (Aggressive): Overall RMSE = 0.0857 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_11
+================================================================================
+  SCENARIO_11/F2/Likelihood-Based: Overall RMSE = 0.0694 m
+  SCENARIO_11/F2/Free Energy (Aggressive): Overall RMSE = 0.0622 m
+  SCENARIO_11/F3/Likelihood-Based: Overall RMSE = 0.0710 m
+  SCENARIO_11/F3/Free Energy (Aggressive): Overall RMSE = 0.0670 m
+  SCENARIO_11/F4/Likelihood-Based: Overall RMSE = 0.0632 m
+  SCENARIO_11/F4/Free Energy (Aggressive): Overall RMSE = 0.0623 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_12
+================================================================================
+  SCENARIO_12/F2/Likelihood-Based: Overall RMSE = 0.0166 m
+  SCENARIO_12/F2/Free Energy (Aggressive): Overall RMSE = 0.0181 m
+  SCENARIO_12/F3/Likelihood-Based: Overall RMSE = 0.0131 m
+  SCENARIO_12/F3/Free Energy (Aggressive): Overall RMSE = 0.0152 m
+  SCENARIO_12/F4/Likelihood-Based: Overall RMSE = 0.0192 m
+  SCENARIO_12/F4/Free Energy (Aggressive): Overall RMSE = 0.0154 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_13
+================================================================================
+  SCENARIO_13/F2/Likelihood-Based: Overall RMSE = 0.1605 m
+  SCENARIO_13/F2/Free Energy (Aggressive): Overall RMSE = 0.1577 m
+  SCENARIO_13/F3/Likelihood-Based: Overall RMSE = 0.1632 m
+  SCENARIO_13/F3/Free Energy (Aggressive): Overall RMSE = 0.1574 m
+  SCENARIO_13/F4/Likelihood-Based: Overall RMSE = 0.1606 m
+  SCENARIO_13/F4/Free Energy (Aggressive): Overall RMSE = 0.1594 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_14
+================================================================================
+  SCENARIO_14/F2/Likelihood-Based: Overall RMSE = 0.0596 m
+  SCENARIO_14/F2/Free Energy (Aggressive): Overall RMSE = 0.0555 m
+  SCENARIO_14/F3/Likelihood-Based: Overall RMSE = 0.0626 m
+  SCENARIO_14/F3/Free Energy (Aggressive): Overall RMSE = 0.0573 m
+  SCENARIO_14/F4/Likelihood-Based: Overall RMSE = 0.0639 m
+  SCENARIO_14/F4/Free Energy (Aggressive): Overall RMSE = 0.0554 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_15
+================================================================================
+  SCENARIO_15/F2/Likelihood-Based: Overall RMSE = 0.2816 m
+  SCENARIO_15/F2/Free Energy (Aggressive): Overall RMSE = 0.2853 m
+  SCENARIO_15/F3/Likelihood-Based: Overall RMSE = 0.2885 m
+  SCENARIO_15/F3/Free Energy (Aggressive): Overall RMSE = 0.2852 m
+  SCENARIO_15/F4/Likelihood-Based: Overall RMSE = 0.2851 m
+  SCENARIO_15/F4/Free Energy (Aggressive): Overall RMSE = 0.2904 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_16
+================================================================================
+  SCENARIO_16/F2/Likelihood-Based: Overall RMSE = 0.0794 m
+  SCENARIO_16/F2/Free Energy (Aggressive): Overall RMSE = 0.0727 m
+  SCENARIO_16/F3/Likelihood-Based: Overall RMSE = 0.0748 m
+  SCENARIO_16/F3/Free Energy (Aggressive): Overall RMSE = 0.0744 m
+  SCENARIO_16/F4/Likelihood-Based: Overall RMSE = 0.0821 m
+  SCENARIO_16/F4/Free Energy (Aggressive): Overall RMSE = 0.0762 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_17
+================================================================================
+  SCENARIO_17/F2/Likelihood-Based: Overall RMSE = 0.0172 m
+  SCENARIO_17/F2/Free Energy (Aggressive): Overall RMSE = 0.0169 m
+  SCENARIO_17/F3/Likelihood-Based: Overall RMSE = 0.0186 m
+  SCENARIO_17/F3/Free Energy (Aggressive): Overall RMSE = 0.0170 m
+  SCENARIO_17/F4/Likelihood-Based: Overall RMSE = 0.0228 m
+  SCENARIO_17/F4/Free Energy (Aggressive): Overall RMSE = 0.0167 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_18
+================================================================================
+  SCENARIO_18/F2/Likelihood-Based: Overall RMSE = 0.0602 m
+  SCENARIO_18/F2/Free Energy (Aggressive): Overall RMSE = 0.0522 m
+  SCENARIO_18/F3/Likelihood-Based: Overall RMSE = 0.0612 m
+  SCENARIO_18/F3/Free Energy (Aggressive): Overall RMSE = 0.0611 m
+  SCENARIO_18/F4/Likelihood-Based: Overall RMSE = 0.0687 m
+  SCENARIO_18/F4/Free Energy (Aggressive): Overall RMSE = 0.0533 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_19
+================================================================================
+  SCENARIO_19/F2/Likelihood-Based: Overall RMSE = 0.0685 m
+  SCENARIO_19/F2/Free Energy (Aggressive): Overall RMSE = 0.0543 m
+  SCENARIO_19/F3/Likelihood-Based: Overall RMSE = 0.0651 m
+  SCENARIO_19/F3/Free Energy (Aggressive): Overall RMSE = 0.0509 m
+  SCENARIO_19/F4/Likelihood-Based: Overall RMSE = 0.0641 m
+  SCENARIO_19/F4/Free Energy (Aggressive): Overall RMSE = 0.0558 m
+
+================================================================================
+TESTING SCENARIO: SCENARIO_20
+================================================================================
+  SCENARIO_20/F2/Likelihood-Based: Overall RMSE = 0.1292 m
+  SCENARIO_20/F2/Free Energy (Aggressive): Overall RMSE = 0.1222 m
+  SCENARIO_20/F3/Likelihood-Based: Overall RMSE = 0.1278 m
+  SCENARIO_20/F3/Free Energy (Aggressive): Overall RMSE = 0.1219 m
+  SCENARIO_20/F4/Likelihood-Based: Overall RMSE = 0.1269 m
+  SCENARIO_20/F4/Free Energy (Aggressive): Overall RMSE = 0.1246 m
+
+================================================================================
+COMPREHENSIVE COMPARISON ACROSS ALL SCENARIOS
+================================================================================
+
+********************************************************************************
+SCENARIO: SCENARIO_1
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.0742m  Drone=0.0919m  Ceil=0.0098m  Floor=0.0893m
+  Free Energy (Aggressive)      : Overall=0.0741m  Drone=0.0936m  Ceil=0.0080m  Floor=0.0875m
+  → Improvement: +0.14%
+
+F3:
+  Likelihood-Based              : Overall=0.0760m  Drone=0.0935m  Ceil=0.0116m  Floor=0.0920m
+  Free Energy (Aggressive)      : Overall=0.0730m  Drone=0.0921m  Ceil=0.0082m  Floor=0.0863m
+  → Improvement: +3.94%
+
+F4:
+  Likelihood-Based              : Overall=0.0793m  Drone=0.0920m  Ceil=0.0429m  Floor=0.0926m
+  Free Energy (Aggressive)      : Overall=0.0741m  Drone=0.0929m  Ceil=0.0078m  Floor=0.0883m
+  → Improvement: +6.57%
+
+********************************************************************************
+SCENARIO: SCENARIO_2
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.1190m  Drone=0.1443m  Ceil=0.1436m  Floor=0.0318m
+  Free Energy (Aggressive)      : Overall=0.1157m  Drone=0.1416m  Ceil=0.1371m  Floor=0.0355m
+  → Improvement: +2.77%
+
+F3:
+  Likelihood-Based              : Overall=0.1177m  Drone=0.1424m  Ceil=0.1425m  Floor=0.0312m
+  Free Energy (Aggressive)      : Overall=0.1163m  Drone=0.1426m  Ceil=0.1380m  Floor=0.0340m
+  → Improvement: +1.20%
+
+F4:
+  Likelihood-Based              : Overall=0.1208m  Drone=0.1432m  Ceil=0.1493m  Floor=0.0311m
+  Free Energy (Aggressive)      : Overall=0.1155m  Drone=0.1400m  Ceil=0.1390m  Floor=0.0338m
+  → Improvement: +4.34%
+
+********************************************************************************
+SCENARIO: SCENARIO_3
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.0833m  Drone=0.1007m  Ceil=0.0235m  Floor=0.1007m
+  Free Energy (Aggressive)      : Overall=0.0793m  Drone=0.0993m  Ceil=0.0282m  Floor=0.0905m
+  → Improvement: +4.83%
+
+F3:
+  Likelihood-Based              : Overall=0.0836m  Drone=0.1011m  Ceil=0.0227m  Floor=0.1011m
+  Free Energy (Aggressive)      : Overall=0.0826m  Drone=0.1028m  Ceil=0.0280m  Floor=0.0954m
+  → Improvement: +1.17%
+
+F4:
+  Likelihood-Based              : Overall=0.0878m  Drone=0.1014m  Ceil=0.0442m  Floor=0.1044m
+  Free Energy (Aggressive)      : Overall=0.0787m  Drone=0.0970m  Ceil=0.0278m  Floor=0.0916m
+  → Improvement: +10.44%
+
+********************************************************************************
+SCENARIO: SCENARIO_4
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.0139m  Drone=0.0201m  Ceil=0.0092m  Floor=0.0093m
+  Free Energy (Aggressive)      : Overall=0.0143m  Drone=0.0207m  Ceil=0.0106m  Floor=0.0083m
+  → Improvement: -2.92%
+
+F3:
+  Likelihood-Based              : Overall=0.0145m  Drone=0.0202m  Ceil=0.0115m  Floor=0.0095m
+  Free Energy (Aggressive)      : Overall=0.0146m  Drone=0.0206m  Ceil=0.0111m  Floor=0.0097m
+  → Improvement: -0.94%
+
+F4:
+  Likelihood-Based              : Overall=0.0252m  Drone=0.0205m  Ceil=0.0371m  Floor=0.0105m
+  Free Energy (Aggressive)      : Overall=0.0148m  Drone=0.0219m  Ceil=0.0108m  Floor=0.0076m
+  → Improvement: +41.50%
+
+********************************************************************************
+SCENARIO: SCENARIO_5
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.1684m  Drone=0.2058m  Ceil=0.2059m  Floor=0.0177m
+  Free Energy (Aggressive)      : Overall=0.1653m  Drone=0.2030m  Ceil=0.2013m  Floor=0.0167m
+  → Improvement: +1.83%
+
+F3:
+  Likelihood-Based              : Overall=0.1684m  Drone=0.2058m  Ceil=0.2059m  Floor=0.0176m
+  Free Energy (Aggressive)      : Overall=0.1676m  Drone=0.2059m  Ceil=0.2039m  Floor=0.0176m
+  → Improvement: +0.47%
+
+F4:
+  Likelihood-Based              : Overall=0.1662m  Drone=0.2049m  Ceil=0.2015m  Floor=0.0182m
+  Free Energy (Aggressive)      : Overall=0.1681m  Drone=0.2050m  Ceil=0.2060m  Floor=0.0174m
+  → Improvement: -1.11%
+
+********************************************************************************
+SCENARIO: SCENARIO_6
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.0424m  Drone=0.0561m  Ceil=0.0441m  Floor=0.0169m
+  Free Energy (Aggressive)      : Overall=0.0377m  Drone=0.0578m  Ceil=0.0251m  Floor=0.0172m
+  → Improvement: +10.94%
+
+F3:
+  Likelihood-Based              : Overall=0.0442m  Drone=0.0552m  Ceil=0.0503m  Floor=0.0169m
+  Free Energy (Aggressive)      : Overall=0.0363m  Drone=0.0553m  Ceil=0.0248m  Floor=0.0169m
+  → Improvement: +17.88%
+
+F4:
+  Likelihood-Based              : Overall=0.0340m  Drone=0.0524m  Ceil=0.0220m  Floor=0.0155m
+  Free Energy (Aggressive)      : Overall=0.0355m  Drone=0.0548m  Ceil=0.0231m  Floor=0.0160m
+  → Improvement: -4.57%
+
+********************************************************************************
+SCENARIO: SCENARIO_7
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.0375m  Drone=0.0536m  Ceil=0.0350m  Floor=0.0117m
+  Free Energy (Aggressive)      : Overall=0.0370m  Drone=0.0585m  Ceil=0.0231m  Floor=0.0124m
+  → Improvement: +1.37%
+
+F3:
+  Likelihood-Based              : Overall=0.0435m  Drone=0.0547m  Ceil=0.0505m  Floor=0.0121m
+  Free Energy (Aggressive)      : Overall=0.0352m  Drone=0.0561m  Ceil=0.0206m  Floor=0.0122m
+  → Improvement: +19.11%
+
+F4:
+  Likelihood-Based              : Overall=0.0421m  Drone=0.0584m  Ceil=0.0411m  Floor=0.0142m
+  Free Energy (Aggressive)      : Overall=0.0333m  Drone=0.0531m  Ceil=0.0192m  Floor=0.0114m
+  → Improvement: +20.88%
+
+********************************************************************************
+SCENARIO: SCENARIO_8
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.1207m  Drone=0.1438m  Ceil=0.0520m  Floor=0.1426m
+  Free Energy (Aggressive)      : Overall=0.1142m  Drone=0.1370m  Ceil=0.0530m  Floor=0.1324m
+  → Improvement: +5.42%
+
+F3:
+  Likelihood-Based              : Overall=0.1197m  Drone=0.1424m  Ceil=0.0515m  Floor=0.1417m
+  Free Energy (Aggressive)      : Overall=0.1170m  Drone=0.1406m  Ceil=0.0538m  Floor=0.1357m
+  → Improvement: +2.27%
+
+F4:
+  Likelihood-Based              : Overall=0.1163m  Drone=0.1373m  Ceil=0.0531m  Floor=0.1375m
+  Free Energy (Aggressive)      : Overall=0.1160m  Drone=0.1377m  Ceil=0.0567m  Floor=0.1350m
+  → Improvement: +0.26%
+
+********************************************************************************
+SCENARIO: SCENARIO_9
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.0513m  Drone=0.0620m  Ceil=0.0632m  Floor=0.0071m
+  Free Energy (Aggressive)      : Overall=0.0454m  Drone=0.0606m  Ceil=0.0494m  Floor=0.0096m
+  → Improvement: +11.35%
+
+F3:
+  Likelihood-Based              : Overall=0.0495m  Drone=0.0608m  Ceil=0.0602m  Floor=0.0061m
+  Free Energy (Aggressive)      : Overall=0.0466m  Drone=0.0610m  Ceil=0.0520m  Floor=0.0088m
+  → Improvement: +5.94%
+
+F4:
+  Likelihood-Based              : Overall=0.0408m  Drone=0.0595m  Ceil=0.0375m  Floor=0.0070m
+  Free Energy (Aggressive)      : Overall=0.0470m  Drone=0.0625m  Ceil=0.0513m  Floor=0.0096m
+  → Improvement: -15.11%
+
+********************************************************************************
+SCENARIO: SCENARIO_10
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.0910m  Drone=0.1119m  Ceil=0.1109m  Floor=0.0070m
+  Free Energy (Aggressive)      : Overall=0.0881m  Drone=0.1122m  Ceil=0.1033m  Floor=0.0070m
+  → Improvement: +3.19%
+
+F3:
+  Likelihood-Based              : Overall=0.0899m  Drone=0.1101m  Ceil=0.1098m  Floor=0.0069m
+  Free Energy (Aggressive)      : Overall=0.0873m  Drone=0.1104m  Ceil=0.1030m  Floor=0.0068m
+  → Improvement: +2.89%
+
+F4:
+  Likelihood-Based              : Overall=0.0851m  Drone=0.1092m  Ceil=0.0987m  Floor=0.0072m
+  Free Energy (Aggressive)      : Overall=0.0857m  Drone=0.1086m  Ceil=0.1010m  Floor=0.0066m
+  → Improvement: -0.74%
+
+********************************************************************************
+SCENARIO: SCENARIO_11
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.0694m  Drone=0.0841m  Ceil=0.0816m  Floor=0.0270m
+  Free Energy (Aggressive)      : Overall=0.0622m  Drone=0.0835m  Ceil=0.0622m  Floor=0.0276m
+  → Improvement: +10.43%
+
+F3:
+  Likelihood-Based              : Overall=0.0710m  Drone=0.0849m  Ceil=0.0844m  Floor=0.0278m
+  Free Energy (Aggressive)      : Overall=0.0670m  Drone=0.0866m  Ceil=0.0717m  Floor=0.0285m
+  → Improvement: +5.62%
+
+F4:
+  Likelihood-Based              : Overall=0.0632m  Drone=0.0845m  Ceil=0.0645m  Floor=0.0263m
+  Free Energy (Aggressive)      : Overall=0.0623m  Drone=0.0860m  Ceil=0.0594m  Floor=0.0270m
+  → Improvement: +1.42%
+
+********************************************************************************
+SCENARIO: SCENARIO_12
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.0166m  Drone=0.0255m  Ceil=0.0074m  Floor=0.0109m
+  Free Energy (Aggressive)      : Overall=0.0181m  Drone=0.0272m  Ceil=0.0112m  Floor=0.0106m
+  → Improvement: -8.97%
+
+F3:
+  Likelihood-Based              : Overall=0.0131m  Drone=0.0189m  Ceil=0.0071m  Floor=0.0103m
+  Free Energy (Aggressive)      : Overall=0.0152m  Drone=0.0229m  Ceil=0.0093m  Floor=0.0092m
+  → Improvement: -16.36%
+
+F4:
+  Likelihood-Based              : Overall=0.0192m  Drone=0.0201m  Ceil=0.0221m  Floor=0.0147m
+  Free Energy (Aggressive)      : Overall=0.0154m  Drone=0.0225m  Ceil=0.0108m  Floor=0.0093m
+  → Improvement: +19.99%
+
+********************************************************************************
+SCENARIO: SCENARIO_13
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.1605m  Drone=0.1926m  Ceil=0.0537m  Floor=0.1932m
+  Free Energy (Aggressive)      : Overall=0.1577m  Drone=0.1893m  Ceil=0.0586m  Floor=0.1879m
+  → Improvement: +1.80%
+
+F3:
+  Likelihood-Based              : Overall=0.1632m  Drone=0.1958m  Ceil=0.0549m  Floor=0.1964m
+  Free Energy (Aggressive)      : Overall=0.1574m  Drone=0.1890m  Ceil=0.0580m  Floor=0.1877m
+  → Improvement: +3.55%
+
+F4:
+  Likelihood-Based              : Overall=0.1606m  Drone=0.1905m  Ceil=0.0589m  Floor=0.1940m
+  Free Energy (Aggressive)      : Overall=0.1594m  Drone=0.1907m  Ceil=0.0586m  Floor=0.1910m
+  → Improvement: +0.71%
+
+********************************************************************************
+SCENARIO: SCENARIO_14
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.0596m  Drone=0.0715m  Ceil=0.0141m  Floor=0.0731m
+  Free Energy (Aggressive)      : Overall=0.0555m  Drone=0.0755m  Ceil=0.0160m  Floor=0.0574m
+  → Improvement: +6.86%
+
+F3:
+  Likelihood-Based              : Overall=0.0626m  Drone=0.0756m  Ceil=0.0153m  Floor=0.0762m
+  Free Energy (Aggressive)      : Overall=0.0573m  Drone=0.0765m  Ceil=0.0162m  Floor=0.0612m
+  → Improvement: +8.44%
+
+F4:
+  Likelihood-Based              : Overall=0.0639m  Drone=0.0735m  Ceil=0.0295m  Floor=0.0773m
+  Free Energy (Aggressive)      : Overall=0.0554m  Drone=0.0744m  Ceil=0.0152m  Floor=0.0586m
+  → Improvement: +13.36%
+
+********************************************************************************
+SCENARIO: SCENARIO_15
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.2816m  Drone=0.3404m  Ceil=0.0828m  Floor=0.3393m
+  Free Energy (Aggressive)      : Overall=0.2853m  Drone=0.3453m  Ceil=0.0849m  Floor=0.3432m
+  → Improvement: -1.34%
+
+F3:
+  Likelihood-Based              : Overall=0.2885m  Drone=0.3484m  Ceil=0.0879m  Floor=0.3472m
+  Free Energy (Aggressive)      : Overall=0.2852m  Drone=0.3453m  Ceil=0.0851m  Floor=0.3428m
+  → Improvement: +1.14%
+
+F4:
+  Likelihood-Based              : Overall=0.2851m  Drone=0.3461m  Ceil=0.0838m  Floor=0.3421m
+  Free Energy (Aggressive)      : Overall=0.2904m  Drone=0.3529m  Ceil=0.0873m  Floor=0.3477m
+  → Improvement: -1.87%
+
+********************************************************************************
+SCENARIO: SCENARIO_16
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.0794m  Drone=0.0985m  Ceil=0.0160m  Floor=0.0947m
+  Free Energy (Aggressive)      : Overall=0.0727m  Drone=0.0937m  Ceil=0.0185m  Floor=0.0821m
+  → Improvement: +8.51%
+
+F3:
+  Likelihood-Based              : Overall=0.0748m  Drone=0.0923m  Ceil=0.0133m  Floor=0.0900m
+  Free Energy (Aggressive)      : Overall=0.0744m  Drone=0.0957m  Ceil=0.0181m  Floor=0.0843m
+  → Improvement: +0.61%
+
+F4:
+  Likelihood-Based              : Overall=0.0821m  Drone=0.0983m  Ceil=0.0336m  Floor=0.0972m
+  Free Energy (Aggressive)      : Overall=0.0762m  Drone=0.0971m  Ceil=0.0209m  Floor=0.0869m
+  → Improvement: +7.20%
+
+********************************************************************************
+SCENARIO: SCENARIO_17
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.0172m  Drone=0.0222m  Ceil=0.0143m  Floor=0.0139m
+  Free Energy (Aggressive)      : Overall=0.0169m  Drone=0.0229m  Ceil=0.0165m  Floor=0.0077m
+  → Improvement: +1.94%
+
+F3:
+  Likelihood-Based              : Overall=0.0186m  Drone=0.0235m  Ceil=0.0174m  Floor=0.0135m
+  Free Energy (Aggressive)      : Overall=0.0170m  Drone=0.0232m  Ceil=0.0165m  Floor=0.0075m
+  → Improvement: +8.63%
+
+F4:
+  Likelihood-Based              : Overall=0.0228m  Drone=0.0231m  Ceil=0.0277m  Floor=0.0160m
+  Free Energy (Aggressive)      : Overall=0.0167m  Drone=0.0224m  Ceil=0.0166m  Floor=0.0080m
+  → Improvement: +26.61%
+
+********************************************************************************
+SCENARIO: SCENARIO_18
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.0602m  Drone=0.0746m  Ceil=0.0700m  Floor=0.0196m
+  Free Energy (Aggressive)      : Overall=0.0522m  Drone=0.0707m  Ceil=0.0518m  Floor=0.0218m
+  → Improvement: +13.29%
+
+F3:
+  Likelihood-Based              : Overall=0.0612m  Drone=0.0741m  Ceil=0.0731m  Floor=0.0198m
+  Free Energy (Aggressive)      : Overall=0.0611m  Drone=0.0788m  Ceil=0.0664m  Floor=0.0240m
+  → Improvement: +0.18%
+
+F4:
+  Likelihood-Based              : Overall=0.0687m  Drone=0.0795m  Ceil=0.0856m  Floor=0.0225m
+  Free Energy (Aggressive)      : Overall=0.0533m  Drone=0.0732m  Ceil=0.0517m  Floor=0.0223m
+  → Improvement: +22.32%
+
+********************************************************************************
+SCENARIO: SCENARIO_19
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.0685m  Drone=0.0834m  Ceil=0.0801m  Floor=0.0267m
+  Free Energy (Aggressive)      : Overall=0.0543m  Drone=0.0797m  Ceil=0.0402m  Floor=0.0298m
+  → Improvement: +20.75%
+
+F3:
+  Likelihood-Based              : Overall=0.0651m  Drone=0.0783m  Ceil=0.0770m  Floor=0.0250m
+  Free Energy (Aggressive)      : Overall=0.0509m  Drone=0.0744m  Ceil=0.0383m  Floor=0.0280m
+  → Improvement: +21.72%
+
+F4:
+  Likelihood-Based              : Overall=0.0641m  Drone=0.0787m  Ceil=0.0731m  Floor=0.0278m
+  Free Energy (Aggressive)      : Overall=0.0558m  Drone=0.0831m  Ceil=0.0400m  Floor=0.0293m
+  → Improvement: +12.85%
+
+********************************************************************************
+SCENARIO: SCENARIO_20
+********************************************************************************
+
+F2:
+  Likelihood-Based              : Overall=0.1292m  Drone=0.1578m  Ceil=0.0269m  Floor=0.1564m
+  Free Energy (Aggressive)      : Overall=0.1222m  Drone=0.1504m  Ceil=0.0255m  Floor=0.1468m
+  → Improvement: +5.41%
+
+F3:
+  Likelihood-Based              : Overall=0.1278m  Drone=0.1558m  Ceil=0.0261m  Floor=0.1549m
+  Free Energy (Aggressive)      : Overall=0.1219m  Drone=0.1505m  Ceil=0.0254m  Floor=0.1458m
+  → Improvement: +4.60%
+
+F4:
+  Likelihood-Based              : Overall=0.1269m  Drone=0.1537m  Ceil=0.0327m  Floor=0.1537m
+  Free Energy (Aggressive)      : Overall=0.1246m  Drone=0.1527m  Ceil=0.0266m  Floor=0.1501m
+  → Improvement: +1.82%
+
+================================================================================
+SUMMARY: Average Improvement by Scenario
+================================================================================
+Scenario        Avg Improvement      Best Config    
+--------------------------------------------------------------------------------
+SCENARIO_1      +3.55%              F4             
+SCENARIO_2      +2.77%              F4             
+SCENARIO_3      +5.48%              F4             
+SCENARIO_4      +12.55%              F4             
+SCENARIO_5      +0.40%              F2             
+SCENARIO_6      +8.08%              F3             
+SCENARIO_7      +13.79%              F4             
+SCENARIO_8      +2.65%              F2             
+SCENARIO_9      +0.73%              F2             
+SCENARIO_10     +1.78%              F2             
+SCENARIO_11     +5.82%              F2             
+SCENARIO_12     -1.78%              F4             
+SCENARIO_13     +2.02%              F3             
+SCENARIO_14     +9.55%              F4             
+SCENARIO_15     -0.69%              F3             
+SCENARIO_16     +5.44%              F2             
+SCENARIO_17     +12.39%              F4             
+SCENARIO_18     +11.93%              F4             
+SCENARIO_19     +18.44%              F3             
+SCENARIO_20     +3.94%              F2             
+================================================================================
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_1.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_2.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_3.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_4.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_5.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_6.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_7.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_8.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_9.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_10.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_11.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_12.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_13.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_14.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_15.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_16.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_17.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_18.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_19.png
+  Saved plot: plots/R3.0_L20_u0.03_v0.02/true_vs_estimates_SCENARIO_20.png
+Group [1] PF created for drone states (Original MPF baseline)
+Obstacle filters created for Original MPF
+Original MPF coordinator created (baseline)
